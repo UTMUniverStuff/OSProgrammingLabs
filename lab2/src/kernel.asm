@@ -4,8 +4,6 @@
 	; 0xbe00 = 7c00h + 3 * 256 * my_number_fromstudents_registry
     kernel_memory_address equ 0xbe00
 
-
-; Kernel is loaded at 0800:0000 by micro-os_loader
 ORG kernel_memory_address
 
 ; The first byte of this instruction is 0x90

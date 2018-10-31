@@ -13,61 +13,9 @@ name "loader"
 ;   sector: 1
 ;   head: 0
 
-
-
-;=================================================
-; how to test micro-operating system:
-;   1. compile micro-os_loader.asm
-;   2. compile micro-os_kernel.asm
-;   3. compile writebin.asm
-;   4. insert empty floppy disk to drive a:
-;   5. from command prompt type:
-;        writebin loader.bin
-;        writebin kernel.bin /k
-;=================================================
-
-
 ;
 ; The code in this file is supposed to load
-; the kernel (micro-os_kernel.asm) and to pass control over it.
-; The kernel code should be on floppy at:
-
-;   cylinder: 0
-;   sector: 2
-;   head: 0
-
-; memory table (hex):
-; -------------------------------
-; 07c0:kernel_memory_address |   boot sector
-; 07c0:01ff |   (512 bytes)
-; -------------------------------
-; 07c0:0200 |    stack
-; 07c0:03ff |   (255 words)
-; -------------------------------
-; 0800:kernel_memory_address |    kernel
-; 0800:1400 | 
-;           |   (currently 5 kb,
-;           |    10 sectors are
-;           |    loaded from
-;           |    floppy)
-; -------------------------------
-
-
-; To test this program in real envirinment write it to floppy
-; disk using compiled writebin.asm
-; After sucessfully compilation of both files,
-; type this from command prompt:   writebin loader.bin   
-
-; Note: floppy disk boot record will be overwritten.
-;       the floppy will not be useable under windows/dos until
-;       you reformat it, data on floppy disk may be lost.
-;       use empty floppy disks only.
-
-
-; micro-os_loader.asm file produced by this code should be less or
-; equal to 512 bytes, since this is the size of the boot sector.
-
-
+; the kernel and to pass control over it.
 
 ; boot record is loaded at 0000:7c00
 org 7c00h
@@ -155,7 +103,8 @@ int     13h
 ;===================================
 
 ; integrity check:
-cmp     es:[kernel_memory_address], 0x90  ; first byte of kernel must be 0x90 == NOP.
+; check if the first byte of kernel must is 0x90 == NOP.
+cmp     es:[kernel_memory_address], 0x90
 je      integrity_check_ok
 
 ; integrity check error
@@ -192,10 +141,8 @@ clear_screen
 
 ; pass control to kernel:
 jmp     0800h:kernel_memory_address
-hlt
 
 ;===========================================
-
 
 print_string proc near
     push    ax      ; store registers...
