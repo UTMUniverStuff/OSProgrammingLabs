@@ -6,13 +6,14 @@
 
 ORG kernel_memory_address
 
-; The first byte of this instruction is 0x90
+; The first byte of this instruction is 0x90.
 ; It is used by the loader to determine if we had a sucessful launch or not.
+; This is known as the Integrity Check.
 ; The loader prints out an error message if kernel was not found.
 nop
 
-; mov ds, cs
-push cs
+; mov ds, 0800h
+push 0800h
 pop ds
 
 ; Directive to create bin file:
@@ -86,7 +87,7 @@ print_with_10h_0Eh MACRO text, start_x, start_y
     mov bh, 0
     int 10h
 
-    ; Save start of string in dx
+    ; Save start of string in si
     mov si, offset text
 
     while_loop_0Eh:
