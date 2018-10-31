@@ -406,11 +406,11 @@ start:
     ; 10h 1303h
         print_with_10h_1303h 10, 16
 
-    ; ; Directly print into video buffer.
-    ;     print_directly_in_video_buffer
+    ; Directly print into video buffer.
+        print_directly_in_video_buffer
 
     ; ASCII
-    	set_curs_pos 10, 18
+    	set_curs_pos 10, 20
 		xor si, si
 	    ascii_print_loop:
 	    	mov ax, si
@@ -427,4 +427,8 @@ start:
 		mov bx, 0xA42A
 
 		call print_regs
-hlt
+
+    read_key_loop:
+        mov ah, 00h
+        int 16h
+        jmp read_key_loop
