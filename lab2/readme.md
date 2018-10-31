@@ -45,6 +45,10 @@ kernel_memory_address = 0xbe00
 * Each Cylinder has 18 sectors.
 * Each sector can store 512 Bytes.
 
+Idealized floppy drive and diskette structure:
+
+![floppy structure](./imgs/floppy_structure.png)
+
 The control is passed to kernel by jumping to:
 ~~~
 0800h:kernel_memory_address ; == 0800h:0xbe00
