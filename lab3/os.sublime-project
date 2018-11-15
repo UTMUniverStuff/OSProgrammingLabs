@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "build_systems":
+    [
+        {
+            "name": "make_img",
+            "shell_cmd": 
+                "sh ${project_path:${folder}}/../make_img.sh ~/.wine/drive_c/emu8086/MyBuild/loader.bin ~/.wine/drive_c/emu8086/MyBuild/kernel.bin ${project_path:${folder}}/os_imgs/os.img && sh ${project_path:${folder}}/../vm_reset.sh ${project_path:${folder}}/os_imgs/os.img"
+        }
+    ]
+}

@@ -1,0 +1,1013 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"posi",
+				"position"
+			],
+			[
+				"sta",
+				"start_y"
+			],
+			[
+				"star",
+				"start_x"
+			],
+			[
+				"include",
+				"include_directories\tcommand"
+			],
+			[
+				"I",
+				"IQuadrilateralShape"
+			],
+			[
+				"test",
+				"testFlatenedFactory\tvoid testFlatenedFactory(const IShapeFactory *factory)"
+			],
+			[
+				"Flate",
+				"FlattenedShapeFactory"
+			],
+			[
+				"qu",
+				"quadShape\tIQuadrilateralShape * quadShape"
+			],
+			[
+				"end",
+				"endl\tbasic_ostream<_CharT, _Traits> & endl(basic_ostream<_CharT, _Traits> &__os)"
+			],
+			[
+				"vi",
+				"visit"
+			],
+			[
+				"Blacka",
+				"BlackjackServer"
+			],
+			[
+				"fo",
+				"foo\tSharedPtr<int> foo"
+			],
+			[
+				"foo",
+				"foo1\tSharedPtr<int> foo1"
+			],
+			[
+				"int",
+				"intPtr1"
+			],
+			[
+				"resettes",
+				"resetTest2\tSharedPtr<int> resetTest2"
+			],
+			[
+				"bool",
+				"boolTest1\tSharedPtr<int> boolTest1"
+			],
+			[
+				"m_",
+				"m_refCounter\tsize_t * m_refCounter"
+			],
+			[
+				"md",
+				"m_data\tT * m_data"
+			],
+			[
+				"swa",
+				"swapTest1"
+			],
+			[
+				"swap",
+				"swapTest2\tSharedPtr<int> swapTest2"
+			],
+			[
+				"reset",
+				"resetTest1"
+			],
+			[
+				"intp",
+				"intPtr1\tSharedPtr<int> intPtr1"
+			],
+			[
+				"get",
+				"getRefCounter\tsize_t getRefCounter() const"
+			],
+			[
+				"struc",
+				"structPtr2\tSharedPtr<TestStruct> structPtr2"
+			],
+			[
+				"m_d",
+				"m_data\tT * m_data"
+			],
+			[
+				"add_",
+				"add_library\tcommand"
+			],
+			[
+				"Roa",
+				"RoadsterBase\tRoadsterBase(args)"
+			],
+			[
+				"co",
+				"color\tconst Rgb color"
+			],
+			[
+				"Road",
+				"Roadster"
+			],
+			[
+				"tar",
+				"target_include_directories\tcommand"
+			],
+			[
+				"m",
+				"m_array\tdouble * m_array"
+			],
+			[
+				"y",
+				"m_y\tdouble m_y"
+			],
+			[
+				"sqr",
+				"sqrt\tdouble sqrt(double)"
+			],
+			[
+				"target",
+				"target_link_libraries\tcommand"
+			],
+			[
+				"CMAK",
+				"CMAKE_CXX_FLAGS"
+			],
+			[
+				"add",
+				"add_library\tcommand"
+			],
+			[
+				"cmake",
+				"cmake_minimum_required\tcommand"
+			],
+			[
+				"ele",
+				"element1\tunsigned char *const element1"
+			],
+			[
+				"elem",
+				"elementSize\tconst size_t elementSize"
+			],
+			[
+				"eleme",
+				"elementSize\tconst size_t elementSize"
+			],
+			[
+				"con",
+				"const\tconst"
+			],
+			[
+				"Mins",
+				"MinstToolsExecption\tMinstToolsExecption"
+			],
+			[
+				"strin",
+				"string\tstring"
+			],
+			[
+				"ind",
+				"index2\tconst unsigned int index2"
+			],
+			[
+				"pixe",
+				"pixels\tuint8_t * pixels"
+			],
+			[
+				"out",
+				"outFilePath"
+			],
+			[
+				"ar",
+				"argv\tconst char ** argv"
+			],
+			[
+				"BMP",
+				"BMPInfoHeader\tBMPInfoHeader"
+			],
+			[
+				"size",
+				"imgSize\tuint32_t imgSize"
+			],
+			[
+				"kbm",
+				"kBMPHeaderNbOfBytes\tconst uint kBMPHeaderNbOfBytes"
+			],
+			[
+				"kbmp",
+				"kBMPInfoHeaderNbOfBytes\tconst uint kBMPInfoHeaderNbOfBytes"
+			],
+			[
+				"k",
+				"kBMPHeaderNbOfBytes\tconst uint kBMPHeaderNbOfBytes"
+			],
+			[
+				"he",
+				"height\tuint32_t height"
+			],
+			[
+				"nbo",
+				"nbOfRows"
+			],
+			[
+				"nbof",
+				"nbOfImages"
+			],
+			[
+				"static",
+				"static_assert\tstatic_assert(expression, message)"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"uchar",
+				"u_char\tu_char"
+			],
+			[
+				"kse",
+				"kSeedRandom\tconst bool kSeedRandom"
+			],
+			[
+				"rando",
+				"randomChar"
+			],
+			[
+				"OFF",
+				"OffsetType\tOffsetType"
+			],
+			[
+				"ou",
+				"outStream\tstd::ostream & outStream"
+			],
+			[
+				"unique",
+				"unique_ptr\tunique_ptr<class _Tp>"
+			],
+			[
+				"g",
+				"randGenerator"
+			],
+			[
+				"EXI",
+				"EXIT_FAILURE\tEXIT_FAILURE"
+			],
+			[
+				"arg",
+				"argv\tconst char ** argv"
+			],
+			[
+				"sec",
+				"secretMsg\tconst char * secretMsg"
+			],
+			[
+				"ra",
+				"randomGenerator"
+			],
+			[
+				"ksee",
+				"kSeedValue\tconst int kSeedValue"
+			],
+			[
+				"kdi",
+				"kDistributionMax\tconst int kDistributionMax"
+			],
+			[
+				"push",
+				"push_back\tvoid push_back(std::vector<const std::basic_string<char>, std::allocator<const std::basic_string<char> > >::value_type &&__x)"
+			],
+			[
+				"kreg",
+				"kRegexPragmaOnce\tconst std::regex kRegexPragmaOnce"
+			],
+			[
+				"root",
+				"rootDirKey"
+			],
+			[
+				"inclu",
+				"includedFiles\tstd::vector<const std::string> includedFiles"
+			],
+			[
+				"krege",
+				"kRegexIncludeMatchFile\tconst std::regex kRegexIncludeMatchFile"
+			],
+			[
+				"if",
+				"ifstream"
+			],
+			[
+				"pr",
+				"prefix\tconst char * prefix"
+			],
+			[
+				"printpref",
+				"printPrefixedLines\tvoid printPrefixedLines(const char *prefix, const char *filePath)"
+			],
+			[
+				"prefix",
+				"prefixedLinesStream\tstd::ostream * prefixedLinesStream"
+			],
+			[
+				"file",
+				"fileStream"
+			],
+			[
+				"nbofl",
+				"nbOfLinesWritten\tint nbOfLinesWritten"
+			],
+			[
+				"string",
+				"stringbuf\tstringbuf"
+			],
+			[
+				"er",
+				"errno\terrno"
+			],
+			[
+				"fil",
+				"fileStream"
+			],
+			[
+				"outf",
+				"outfile\tstd::fstream outfile"
+			],
+			[
+				"num",
+				"num2\tint num2"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"EX",
+				"EXIT_SUCCESS\tEXIT_SUCCESS"
+			],
+			[
+				"io",
+				"ios\tios"
+			],
+			[
+				"en",
+				"end\tstd::ios_base::seekdir end"
+			],
+			[
+				"stri",
+				"string\tstring"
+			],
+			[
+				"istr",
+				"istream\tistream"
+			],
+			[
+				"cons",
+				"const\tconst"
+			],
+			[
+				"EXIT",
+				"EXIT_SUCCESS\tEXIT_SUCCESS"
+			],
+			[
+				"pro",
+				"proj_dir"
+			],
+			[
+				"E",
+				"ENDMACRO"
+			],
+			[
+				"targ",
+				"target_list"
+			],
+			[
+				"GLOB",
+				"GLOB_RECURSE"
+			],
+			[
+				"END",
+				"ENDFOREACH"
+			],
+			[
+				"fore",
+				"FOREACH"
+			],
+			[
+				"defa",
+				"default_higher_range"
+			],
+			[
+				"hig",
+				"higher_range"
+			],
+			[
+				"lower",
+				"lower_range"
+			],
+			[
+				"rom",
+				"rooms"
+			],
+			[
+				"roo",
+				"rooms"
+			],
+			[
+				"R",
+				"RUNNING_MSG"
+			],
+			[
+				"sor",
+				"sort_vect"
+			],
+			[
+				"wor",
+				"words"
+			],
+			[
+				"sent",
+				"sentences"
+			],
+			[
+				"sente",
+				"sentence_delims"
+			],
+			[
+				"save",
+				"saved_max"
+			],
+			[
+				"savm",
+				"saved_min"
+			],
+			[
+				"de",
+				"deltaY"
+			],
+			[
+				"del",
+				"deltaX"
+			],
+			[
+				"det",
+				"deltaX"
+			],
+			[
+				"socke",
+				"socket_proxy"
+			],
+			[
+				"draw",
+				"drawer"
+			],
+			[
+				"max",
+				"max_v"
+			],
+			[
+				"cla",
+				"clamp"
+			],
+			[
+				"neur",
+				"neurons"
+			],
+			[
+				"neu",
+				"neuron"
+			],
+			[
+				"soc",
+				"socket_proxy"
+			],
+			[
+				"msgl",
+				"msglen_str"
+			],
+			[
+				"ms",
+				"msglen_str"
+			],
+			[
+				"byt",
+				"bytes_to_read"
+			],
+			[
+				"an",
+				"anim"
+			],
+			[
+				"show",
+				"show_gif"
+			],
+			[
+				"po",
+				"points"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"Basic Builder - PdfLaTeX"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"xcode",
+				"MyCMake: build xcode"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"cmake",
+				"CMake: build"
+			],
+			[
+				"My Super Command",
+				"My Super Command"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"gdb",
+				"Set Syntax: GDB Session"
+			],
+			[
+				"terminal",
+				"Terminal: Open"
+			],
+			[
+				"My",
+				"My Super Command"
+			],
+			[
+				"emi",
+				"Emil"
+			],
+			[
+				"commands",
+				"Preferences: Commands - User"
+			],
+			[
+				"Emilwwwww",
+				"Emilwwwww"
+			],
+			[
+				"em",
+				"Emilwwwww"
+			],
+			[
+				"e",
+				"Emilwwwww"
+			],
+			[
+				"E",
+				"Emilwwwww"
+			],
+			[
+				"Emi",
+				"Emilwwwww"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"isntap",
+				"Package Control: Install Package"
+			],
+			[
+				"au",
+				"Autorefresh: Remember the current setting for this file"
+			],
+			[
+				"enabl",
+				"Enable Autorefresh"
+			],
+			[
+				"rename",
+				"File: Rename"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 277.0,
+		"history":
+		[
+			"view.run_command(\"cmake_build\")",
+			"view.run_command(\"c_make_build\")",
+			"view.run_command(\"cmakebuild\")",
+			"view.run_command(\"CMakeBuild\")",
+			"view.run_command(\"c_make_build\")",
+			"view.run_command(\"cmakebuild\")",
+			"view.run_command(\"cmakebuildw\")",
+			"view.run_command(\"cmakebuild\")",
+			"view.run_command(\"example\")",
+			"view.run_command(\"mycmaketools\")",
+			"view.run_command(\"MyCMakeTools\")",
+			"view.run_command(\"CMakeBuild\")",
+			"view.run_command(\"cmakebuild\")",
+			"view.run_command(\"CMakeBuild\")",
+			"view.run_command(\"example\")",
+			"${file}",
+			"$file",
+			"＄ふぃぇ",
+			"view.run_command(\"example\")",
+			"gdb",
+			"cl",
+			"clear",
+			"exec \"ls\"",
+			"exec ls",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3"
+	],
+	"file_history":
+	[
+		"/Users/unicornslayer/Downloads/kernel.asm",
+		"/Users/unicornslayer/Downloads/loader.asm",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab2/os_imgs/lab2.img",
+		"/Users/unicornslayer/.wine/drive_c/emu8086/FLOPPY_0",
+		"/Users/unicornslayer/Documents/university/university_labs/SOMIPP_Calin/set_required_size.sh",
+		"/Users/unicornslayer/Projects/MobileLabs/.gitignore",
+		"/Users/unicornslayer/Desktop/seriojja.c",
+		"/Users/unicornslayer/Documents/university/university_labs/SOMIPP_Calin/lab1/src/main.asm",
+		"/Users/unicornslayer/Documents/university/university_labs/SOMIPP_Calin/lab1/src/print_regs.asm",
+		"/Users/unicornslayer/Documents/university/university_labs/other/removeUnecessaryStuff.sh",
+		"/Users/unicornslayer/Documents/university/university_labs/SOMIPP_Calin/lab1/readme.md",
+		"/Users/unicornslayer/Downloads/hey.asm",
+		"/Users/unicornslayer/Documents/university/university_labs/SOMIPP_Calin/test.txt",
+		"/Users/unicornslayer/Downloads/sqlite-tools-osx-x86-3250200/db_lab.sql",
+		"/Users/unicornslayer/Downloads/nohup.out",
+		"/Users/unicornslayer/Documents/university/university_labs/SOMIPP_Calin/magic_script.sh",
+		"/Users/unicornslayer/Documents/university/university_labs/SOMIPP_Calin/deniz_loh.bleati",
+		"/Users/unicornslayer/.wine/drive_c/emu8086/MyBuild/denizzz_loh.txt",
+		"/Users/unicornslayer/Documents/Klei/DoNotStarveTogether/client_log.txt",
+		"/Users/unicornslayer/Library/Logs/Unity/Player.log",
+		"/Users/unicornslayer/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/Info.plist",
+		"/Users/unicornslayer/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/workshop-347079953/DisplayFoodValues.xml",
+		"/Users/unicornslayer/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/mods/workshop-347079953/DisplayFoodValues.tex",
+		"/Users/unicornslayer/Library/Application Support/Steam/steamapps/common/Don't Starve Together/dontstarve_steam.app/Contents/data/images/anr_silhouettes.tex",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/.SublProj.sublime-",
+		"/Users/unicornslayer/tf/sandbox/cmake/FindTensorflow.cmake",
+		"/Users/unicornslayer/tf/sandbox/CMakeLists.txt",
+		"/Users/unicornslayer/tf/sandbox/cmake/FindEigen3.cmake",
+		"/Users/unicornslayer/tf/sandbox/quick_compile.sh",
+		"/Users/unicornslayer/tf/tensorflow/bazel-genfiles/tensorflow/core/framework/types.pb.h",
+		"/Users/unicornslayer/tf/tensorflow/bazel-genfiles/tensorflow/core/framework/tensor_shape.pb.h",
+		"/usr/local/share/cmake/Modules/FindEigen3.cmake",
+		"/Users/unicornslayer/tf/sandbox/main.cpp",
+		"/usr/local/Cellar/cmake/3.12.1/share/cmake/Modules/FindQt.cmake",
+		"/usr/local/share/cmake/Modules/readme.txt",
+		"/usr/local/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/local/include/tf/tensorflow/core/framework/function.pb.h",
+		"/Users/unicornslayer/tf/sandbox/FindTensorflow.cmake",
+		"/Users/unicornslayer/tf/sandbox/tf.sh",
+		"/Users/unicornslayer/.zshrc",
+		"/usr/local/include/tf/tensorflow/core/framework/function.h",
+		"/Users/unicornslayer/tf/tensorflow/tensorflow/core/framework/tensor.h",
+		"/Users/unicornslayer/Downloads/abseil-cpp/CMakeLists.txt",
+		"/Users/unicornslayer/Downloads/abseil-cpp/build/Makefile",
+		"/Users/unicornslayer/Downloads/abseil-cpp/build/cmake_install.cmake",
+		"/usr/local/include/tensorflow/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h",
+		"/usr/local/include/eigen3/Eigen/Core",
+		"/usr/local/include/tensorflow/third_party/eigen3/unsupported/Eigen/CXX11/FixedPoint",
+		"/Users/unicornslayer/tf/tensorflow/third_party/eigen3/unsupported/Eigen/CXX11/FixedPoint",
+		"/usr/local/include/tensorflow/third_party/eigen3/unsupported/Eigen/CXX11/Tensor",
+		"/Users/unicornslayer/tf/tensorflow/third_party/eigen3/unsupported/Eigen/CXX11/Tensor",
+		"/usr/local/include/tensorflow/unsupported/Eigen/CXX11/Tensor",
+		"/Users/unicornslayer/tf/tensorflow/third_party/eigen3/Eigen/Core",
+		"/usr/local/include/tensorflow/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/NumTraits.h",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/GameView/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/OpenGlSandbox/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/GUIPresentation/CMakeLists.txt",
+		"/Users/unicornslayer/Downloads/tf_test.c",
+		"/Users/unicornslayer/Downloads/tensorflow/tensorflow/cc/example/example.cc",
+		"/Users/unicornslayer/Downloads/tensorflow/tensorflow/cc/example/BUILD",
+		"/Users/unicornslayer/tf/sandbox/main.c",
+		"/Users/unicornslayer/Downloads/sandbox/main.cpp",
+		"/Users/unicornslayer/Downloads/nanogui/CMakeLists.txt",
+		"/Users/unicornslayer/Downloads/sandbox/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/.gitignore",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/.gitmodules",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/.git/config",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/MultiplatformUtils/Getch.cpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/includes/MultiplatformUtils/Getch.h",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/MultiplatformUtils/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/Multiplatform/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/.SublProj.sublime-project",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/Utils/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/TrainingGrounds/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/includes/Utils/Math.h",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/Utils/Math.cpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/AI/QLearning/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/TrainingGrounds/main.cpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/AI/QLearning/TabularTrainer.cpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/includes/AI/HardCoded/Bot.hpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/AI/HardCoded/Bot.cpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/AI/HardCoded/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/AI/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/sandbox/main.cpp",
+		"/Users/unicornslayer/Projects/sandbox/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/sandbox/sandbox.cpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/includes/AI/QLearning/Trainer.hpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/README.md",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/GymEnv/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/GameLogic/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/src/GymEnv/MultiSnakeEnv.cpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/includes/GymEnv/MultiSnakeEnv.hpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/includes/GymEnv/IGymEnv.hpp",
+		"/Users/unicornslayer/Projects/ML/SnakeLearning/includes/AI/ITrainer.hpp",
+		"/Users/unicornslayer/Projects/SnakeLearning/.gitignore",
+		"/Users/unicornslayer/Projects/Blackjack2/.gitignore",
+		"/Users/unicornslayer/Projects/ML/OpenAI-FrozenLake-QLearning/tabular.py",
+		"/Users/unicornslayer/Projects/ML/OpenAI-FrozenLake-QLearning/neural_net.py",
+		"/Users/unicornslayer/Projects/ML/MountainCar/main.py",
+		"/Users/unicornslayer/Projects/ML/OpenAIGymSandbox/.gitignore",
+		"/Users/unicornslayer/Projects/SummerSchool/dlltest/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/SummerSchool/dlltest/.SublProj.sublime-project",
+		"/Users/unicornslayer/Projects/SummerSchool/Week5/d01/abstractFactory/main.cpp",
+		"/Users/unicornslayer/Projects/SummerSchool/Week5/d00/design-patterns/.gitignore",
+		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackServer/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackServer/Controllers/LobbyController.cpp",
+		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Controllers/LobbyController.hpp",
+		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Controllers/GameSessionController.hpp",
+		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Views/GameSessionViews.hpp",
+		"/Users/unicornslayer/Projects/Blackjack2/src/DataLayer/Hand.cpp",
+		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackLogic/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/DataLayer/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/KeyboardInputTools/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/NetworkTools/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/PlayingCards/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/SocketIO/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/SocketConnection/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/Services/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/Requests/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackServer/Views/GameSessionViews.cpp",
+		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackLogic/PointsTools.cpp",
+		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackLogic/PointsTools.hpp",
+		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Models/GameSessionModels.h",
+		"/Users/unicornslayer/Projects/Blackjack2/src/CMakeLists.txt",
+		"/Users/unicornslayer/Projects/Blackjack2/src/SocketConnection/Connection.cpp",
+		"/Users/unicornslayer/Projects/Blackjack2/src/Services/ServerLogger.cpp"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"project": "os.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Library/Logs/Unity/Player.log"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
