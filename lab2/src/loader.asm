@@ -77,10 +77,7 @@ read_1_loop_end:
 
 ;===================================
 ; load the kernel at 0800h:kernel_memory_address
-; 10 sectors starting at:
-;   cylinder: 0
-;   sector: 2
-;   head: 0
+; 10 sectors.
 
 ; BIOS passes drive number in dl,
 ; so it's not changed:
@@ -92,8 +89,7 @@ mov     cl, calculated_kernel_sector
 mov     dh, kernel_head
 ; dl not changed! - drive number.
 
-; es:bx points to receiving
-;  data buffer:
+; es:bx points to receiving data buffer:
 mov     bx, 0800h   
 mov     es, bx
 mov     bx, kernel_memory_address
@@ -103,7 +99,7 @@ int     13h
 ;===================================
 
 ; integrity check:
-; check if the first byte of kernel must is 0x90 == NOP.
+; check if the first byte of kernel is 0x90 == NOP.
 cmp     es:[kernel_memory_address], 0x90
 je      integrity_check_ok
 
