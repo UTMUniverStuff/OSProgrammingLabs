@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"cmd",
+				"cmd_buffer\tlabel"
+			],
+			[
+				"read",
+				"read_str_loop\tlabel"
+			],
+			[
+				"bu",
+				"buffer\tlabel"
+			],
+			[
+				"buff",
+				"buffer_size\tlabel"
+			],
+			[
 				"posi",
 				"position"
 			],
@@ -498,27 +514,81 @@
 			[
 				"ms",
 				"msglen_str"
-			],
-			[
-				"byt",
-				"bytes_to_read"
-			],
-			[
-				"an",
-				"anim"
-			],
-			[
-				"show",
-				"show_gif"
-			],
-			[
-				"po",
-				"points"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/kernel.asm",
+			"settings":
+			{
+				"buffer_size": 1504,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/consts.inc",
+			"settings":
+			{
+				"buffer_size": 37,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/inc/string.inc",
+			"settings":
+			{
+				"buffer_size": 860,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/inc/scan.inc",
+			"settings":
+			{
+				"buffer_size": 6039,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/inc/term_utils.inc",
+			"settings":
+			{
+				"buffer_size": 2276,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/inc/print.inc",
+			"settings":
+			{
+				"buffer_size": 5212,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/unicornslayer/.wine/drive_c/emu8086/inc/emu8086.inc",
+			"settings":
+			{
+				"buffer_size": 15795,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/unicornslayer/.wine/drive_c/emu8086/examples/include.asm",
+			"settings":
+			{
+				"buffer_size": 2612,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -580,7 +650,15 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"Rename File"
+			],
+			[
 				"ren",
+				"Rename File"
+			],
+			[
+				"rena",
 				"Rename File"
 			],
 			[
@@ -594,10 +672,6 @@
 			[
 				"disable",
 				"Package Control: Disable Package"
-			],
-			[
-				"rena",
-				"Rename File"
 			],
 			[
 				"insta",
@@ -614,10 +688,6 @@
 			[
 				"removepa",
 				"Package Control: Remove Package"
-			],
-			[
-				"re",
-				"File: Rename"
 			],
 			[
 				"remove ",
@@ -741,10 +811,30 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3"
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/os_imgs",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/inc"
 	],
 	"file_history":
 	[
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/loader.inc",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/loader.asm",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/kernel_macro.inc",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/inc/string.inc",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/vm_reset.sh",
+		"/Users/unicornslayer/.wine/drive_c/emu8086/inc/emu8086.inc",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/macro_kernel.inc",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/inc/print.inc",
+		"/Users/unicornslayer/.wine/drive_c/emu8086/examples/sandbox.asm",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/inc/wwgotoxy.inc",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/gotoxy.inc",
+		"/Users/unicornslayer/.wine/drive_c/emu8086/inc/gotoxy.inc",
+		"/Users/unicornslayer/Downloads/fasm-master/sandbox/main.c",
+		"/Users/unicornslayer/Downloads/fasm-osx-master/hello32.asm",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/os.sublime-project",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab3/src/set_curs_pos.asm",
+		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/standard_build_and_run.sh",
 		"/Users/unicornslayer/Downloads/kernel.asm",
 		"/Users/unicornslayer/Downloads/loader.asm",
 		"/Users/unicornslayer/Projects/university/OSProgrammingLabs/lab2/os_imgs/lab2.img",
@@ -855,28 +945,11 @@
 		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackServer/Controllers/LobbyController.cpp",
 		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Controllers/LobbyController.hpp",
 		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Controllers/GameSessionController.hpp",
-		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Views/GameSessionViews.hpp",
-		"/Users/unicornslayer/Projects/Blackjack2/src/DataLayer/Hand.cpp",
-		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackLogic/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/DataLayer/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/KeyboardInputTools/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/NetworkTools/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/PlayingCards/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/SocketIO/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/SocketConnection/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/Services/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/Requests/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackServer/Views/GameSessionViews.cpp",
-		"/Users/unicornslayer/Projects/Blackjack2/src/BlackjackLogic/PointsTools.cpp",
-		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackLogic/PointsTools.hpp",
-		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Models/GameSessionModels.h",
-		"/Users/unicornslayer/Projects/Blackjack2/src/CMakeLists.txt",
-		"/Users/unicornslayer/Projects/Blackjack2/src/SocketConnection/Connection.cpp",
-		"/Users/unicornslayer/Projects/Blackjack2/src/Services/ServerLogger.cpp"
+		"/Users/unicornslayer/Projects/Blackjack2/includes/BlackjackServer/Views/GameSessionViews.hpp"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -890,6 +963,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"get_string",
+			"strcmp",
+			"putc",
+			"GOTOXY",
+			"scan_num"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -907,8 +985,271 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/kernel.asm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/NASM x86 Assembly/Assembly x86.tmLanguage",
+							"tab_size": 4,
+							"tabs_extra_last_activated": 1542326378.74,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 589.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/consts.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/NASM x86 Assembly/Assembly x86.tmLanguage",
+							"tabs_extra_last_activated": 1542326373.86,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/inc/string.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								647,
+								647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/NASM x86 Assembly/Assembly x86.tmLanguage",
+							"tab_size": 4,
+							"tabs_extra_last_activated": 1542326383.12,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/inc/scan.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5415,
+								5415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/NASM x86 Assembly/Assembly x86.tmLanguage",
+							"tab_size": 8,
+							"tabs_extra_last_activated": 1542390674.19,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2837.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/inc/term_utils.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/NASM x86 Assembly/Assembly x86.tmLanguage",
+							"tab_size": 8,
+							"tabs_extra_last_activated": 1542325140.24,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 303.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/inc/print.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							],
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/NASM x86 Assembly/Assembly x86.tmLanguage",
+							"tabs_extra_last_activated": 1542324445.24,
+							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 224.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/unicornslayer/.wine/drive_c/emu8086/inc/emu8086.inc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10891,
+								10891
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/NASM x86 Assembly/Assembly x86.tmLanguage",
+							"tab_size": 8,
+							"tabs_extra_last_activated": 1542288838.59,
+							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6547.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/unicornslayer/.wine/drive_c/emu8086/examples/include.asm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/NASM x86 Assembly/Assembly x86.tmLanguage",
+							"tabs_extra_last_activated": 1542279268.44,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -959,7 +1300,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"pinned_build_system": "make_img",
 	"project": "os.sublime-project",
 	"replace":
 	{
@@ -990,12 +1331,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 592.0
 	},
 	"selected_group": 0,
 	"settings":
