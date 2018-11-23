@@ -1,6 +1,11 @@
 #ifndef _PRINT_INC_
 # define _PRINT_INC_
 
+# ifndef _ENDL
+#  define _ENDL_
+    endl equ 0ah, 0dh
+# endif
+
 ; this macro prints a char in AL and advances
 ; the current cursor position:
 PUTC    MACRO   char

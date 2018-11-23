@@ -16,11 +16,11 @@ strequ PROC NEAR
     push di
 
     str_loop:
-        mov ax, [di]
-        cmp [si], ax
+        mov al, b. [di]
+        cmp b. [si], al
         jne strs_are_not_equal
 
-        cmp [si], 0
+        cmp b. [si], 0
         je strs_are_equal
 
         inc si
