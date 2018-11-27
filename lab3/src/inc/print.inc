@@ -1,6 +1,8 @@
 #ifndef _PRINT_INC_
 # define _PRINT_INC_
 
+# include "term_utils.inc"
+
 # ifndef _ENDL
 #  define _ENDL_
     endl equ 0ah, 0dh
@@ -50,7 +52,6 @@ printed:
 POP     SI      ; re-store registers...
 POP     AX      ;
 ENDM
-
 
 ; this macro prints a string that is given as a parameter, example:
 ; PRINTN 'hello world!'

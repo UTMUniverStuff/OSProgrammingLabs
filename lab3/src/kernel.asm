@@ -151,7 +151,15 @@ start:
     int 10h
 
     read_str_loop:
-        print "$> "
+        ; Print prompt
+        get_cursor_pos
+        mov al, 0011b
+        mov bh, 0
+        mov bl, 0
+        mov cx, (prompt_end - offset prompt) >> 1
+        lea bp, prompt
+        mov ah, 13h
+        int 10h
 
         mov bl, term_width
         mov dx, cmd_buffer_size
@@ -192,6 +200,11 @@ start:
     cmd_buffer db 512 dup(0)
 
     argv dw 128 dup(0)
+
+    prompt  db '$', 06h,
+            db '>', 05h,
+            db ' ', 07h
+    prompt_end:
 
     ; Cmds
     cmd_help_str    db "help", 0

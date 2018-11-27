@@ -167,6 +167,7 @@ _process_pos_at_x_0 PROC NEAR
 
         jne _process_pos_at_x_0_exit
 
+        ; Goto row - 1, screen_width
         dec     DH ; decrease the row
         MOV     DL, screen_width
         MOV     AH, 02h
