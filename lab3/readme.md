@@ -1,5 +1,7 @@
 # Lab 3
 
+![](./imgs/screen1.png)
+
 ## Topic: Command Line Interpreter
 
 Create CLI application with the following functionalities:
