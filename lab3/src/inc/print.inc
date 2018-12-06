@@ -23,6 +23,9 @@ PUT_NEWLINE	MACRO
 	PUTC 0dh
 ENDM
 
+BEEP MACRO
+    PUTC 7
+ENDM
 
 ; this macro prints a string that is given as a parameter, example:
 ; PRINT 'hello world!'

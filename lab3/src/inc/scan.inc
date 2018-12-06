@@ -154,7 +154,7 @@ DEFINE_GET_STRING       MACRO
 LOCAL   empty_buffer, wait_for_key, skip_proc_get_string
 LOCAL   exit, add_to_buffer, screen_width
 LOCAL   its_not_on_the_edge_of_the_screen, edge_of_the_screen_endif
-LOCAL   _process_pos_at_x_0_exit
+LOCAL   _process_pos_at_x_0_exit, do_the_beep
 
 ; protect from wrong definition location:
 JMP     skip_proc_get_string
@@ -205,7 +205,7 @@ JZ      exit
 
 CMP     AL, 8               ; 'BACKSPACE' pressed?
 JNE     add_to_buffer
-JCXZ    wait_for_key        ; nothing to remove!
+JCXZ    do_the_beep         ; nothing to remove!
 DEC     CX
 DEC     DI
 
@@ -258,7 +258,8 @@ JMP     wait_for_key
 add_to_buffer:
 
     CMP     CX, DX    ; buffer is full?
-    JAE     wait_for_key    ; if so wait for 'BACKSPACE' or 'RETURN'...
+
+    JAE     do_the_beep    ; if so wait for 'BACKSPACE' or 'RETURN'...
 
     MOV     [DI], AL
     INC     DI
@@ -270,6 +271,11 @@ add_to_buffer:
 
     call _process_pos_at_x_0
 JMP     wait_for_key
+
+do_the_beep:
+    beep
+    jmp wait_for_key
+
 ;============================
 
 exit:

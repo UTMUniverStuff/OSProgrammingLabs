@@ -6,7 +6,7 @@ LOCAL skip_proc_declaration_cmd_beep
 jmp skip_proc_declaration_cmd_beep
 
 cmd_beep PROC NEAR
-	printn "I don't know how to do this"
+	beep
     ret
 cmd_beep ENDP
 
