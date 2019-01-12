@@ -11,6 +11,7 @@ jmp skip_proc_declaration_cmd_help
 				 db	"beep - should produce a sound", endl
 				 db	"reboot - restart the system", endl
 				 db	"echo - print the arguments", endl
+				 db	"bc - calculates the sum of 2 numbers", endl
 				 db	0
 
 cmd_help PROC NEAR

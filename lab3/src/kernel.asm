@@ -12,6 +12,7 @@ include "cmds/ascii.inc"
 include "cmds/clear.inc"
 include "cmds/beep.inc"
 include "cmds/echo.inc"
+include "cmds/bc.inc"
 
 ORG kernel_memory_address
 
@@ -42,6 +43,7 @@ jmp start
     DEFINE_CMD_CLEAR
     DEFINE_CMD_BEEP
     DEFINE_CMD_ECHO
+    DEFINE_CMD_BC
 
 execute_argv MACRO stat
 LOCAL cmd_executed, no_such_cmd, execute_argv_end
@@ -129,6 +131,17 @@ LOCAL not_help_cmd
 
     not_echo_cmd:
 
+    ; Cmd - bc
+    lea di, cmd_bc_str
+    call strequ
+
+    cmp al, 0
+    je not_bc_cmd
+        call cmd_bc
+        jmp cmd_executed
+
+    not_bc_cmd:
+
     ; End of cmds
     no_such_cmd:
         mov al, 0
@@ -214,3 +227,4 @@ start:
     cmd_beep_str    db "beep", 0
     cmd_reboot_str  db "reboot", 0
     cmd_echo_str    db "echo", 0
+    cmd_bc_str      db "bc", 0

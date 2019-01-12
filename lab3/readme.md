@@ -41,6 +41,7 @@ Unfortunately I didn't find a way to produce sound. I could write the character 
 * beep
 * reboot
 * echo
+* bc
 
 ### How it works?
 I have an infinite loop that:
@@ -49,3 +50,7 @@ I have an infinite loop that:
   3. Divide the input into words
   4. Search if the first argument is a valid Command
   5. If it is, execute the cmd. Otherwise tell the user that such a cmd doesn't exist
+
+### How to run
+1. Compile loader.asm and kernel.asm in emu8086
+2. Run: `sh make_img.sh <loader.bin> <kernel.bin> <img_name.img>`
